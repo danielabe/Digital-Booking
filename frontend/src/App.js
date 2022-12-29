@@ -4,18 +4,21 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer';
 /* import React, { useEffect, useState, useContext } from "react"; */
 import Header from './components/Header';
+import Body from './components/Body';
 import Home from './pages/Home';
 
 function App() {
   return (
     <>
       <Header />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
+      <Body>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
+      </Body>
       <Footer />
     </>
   );

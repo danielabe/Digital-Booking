@@ -1,0 +1,4 @@
+.body {
+    height: calc( 100vh - 22vw);
+    background-color: #F3F1ED;
+}
