@@ -42,7 +42,7 @@ header {
 
 @media screen and (min-width: 768px) {
     header {
-        height: 6vw;
+        height: 12.75vw;
         padding: 0 3vw;
     }
 
@@ -77,8 +77,9 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-
-
+    header {
+        height: 6vw;
+    }
     .slogan {
         display: block;
         margin-bottom: 2px;

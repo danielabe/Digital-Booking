@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    align-items: center;
+    height: 14vw;
+    padding: 0 2.6vw;
+    background-color: #1DBEB4;
+    color: #FFFFFF;
+}
+
+footer .text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        height: 7.5vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        height: 4.25vw;
+    }
+}

@@ -1,7 +1,10 @@
+import '../styles/Footer.css';
+
 const Footer = () => {
     return (
         <footer>
-            <div>footer</div>
+            <div className='text'>©2021 Digital Booking</div>
+            <div className='socialNetworks'></div>
         </footer>
     );
 }
