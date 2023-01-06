@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
     height: 22vw;
     max-height: 130px;
     padding: 0 2.6vw;

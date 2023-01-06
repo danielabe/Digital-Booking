@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 14vw;
     padding: 0 2.6vw;
@@ -13,14 +14,42 @@ footer .text {
     line-height: 16px;
 }
 
+.social-network {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.icon-social-network {
+    width: 4vw;
+    max-width: 25px;
+}
+
 @media screen and (min-width: 768px) {
     footer {
         height: 7.5vw;
     }
+
+    .social-network {
+        gap: 2vw;
+    }
+
+/*     .icon-social-network {
+        width: 7vw;
+    } */
 }
 
 @media screen and (min-width: 1024px) {
     footer {
         height: 4.25vw;
+    }
+
+    .social-network {
+        gap: 1.5vw;
+    }
+
+    .icon-social-network {
+        /* width: 4vw; */
+        max-width: 20px;
     }
 }

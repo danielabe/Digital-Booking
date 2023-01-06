@@ -1,16 +1,17 @@
-.body {
+main {
     height: calc( 100vh - 22vw - 14vw);
+    min-height: calc( 100vh - 130px - 14vw);
     background-color: #F3F1ED;
 }
 
 @media screen and (min-width: 768px) {
-    .body {
+    main {
         height: calc( 100vh - 12.75vw - 7.5vw);
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .body {
+    main {
         height: calc( 100vh - 6vw - 4.25vw);
     }
 }
