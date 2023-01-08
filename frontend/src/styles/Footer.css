@@ -4,8 +4,8 @@ footer {
     align-items: center;
     height: 14vw;
     padding: 0 2.6vw;
-    background-color: #1DBEB4;
-    color: #FFFFFF;
+    background-color: var(--primary-color);
+    color: var(--color-white);
 }
 
 footer .text {

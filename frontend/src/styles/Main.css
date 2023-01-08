@@ -1,7 +1,7 @@
 main {
     height: calc( 100vh - 22vw - 14vw);
     min-height: calc( 100vh - 130px - 14vw);
-    background-color: #F3F1ED;
+    background-color: var(--color-4);
 }
 
 @media screen and (min-width: 768px) {
