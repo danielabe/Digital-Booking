@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 263px;
+    padding: 0 10px;
+    background-color: var(--terciary-color);
+}
+
+h1{
+    padding-top: 28px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.search-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-bottom: 10px;
+}
