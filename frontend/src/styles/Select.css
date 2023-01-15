@@ -1,0 +1,92 @@
+.placeholder {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-5);
+}
+
+#react-select-3-listbox>div>div:last-child {
+    border: none;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.option:active {
+    background-color: var(--primary-color)
+}
+
+#react-select-3-listbox > div > div:active {
+    background-color: var(--primary-color)
+}
+
+.icon-select {
+    width: 17px;
+    height: 25px;
+}
+
+.option div {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    color: var(--terciary-color);
+}
+
+#react-select-3-listbox .location {
+    flex-direction: column;
+}
+
+.city-option {
+    color: var(--terciary-color);
+}
+
+#react-select-3-listbox .option .city-option {
+    color: #000000;
+}
+
+.option .country-option {
+    color: var(--terciary-color);
+}
+
+.option span {
+    margin-right: 5px;
+}
+
+#react-select-3-listbox span {
+    display: none;
+} 
+
+#react-select-3-listbox .location2 {
+    display: none;
+}
+
+.location3 {
+    display: none;
+}
+
+#react-select-3-listbox .location3 {
+    display: block;
+}
+
+.btn-search {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}

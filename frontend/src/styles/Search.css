@@ -7,7 +7,7 @@
     background-color: var(--terciary-color);
 }
 
-h1{
+h1 {
     padding-top: 28px;
     font-size: 30px;
     font-weight: 700;
@@ -16,7 +16,7 @@ h1{
     color: var(--color-white);
 }
 
-.search-inputs{
+.search-inputs {
     display: flex;
     flex-direction: column;
     gap: 9px;
